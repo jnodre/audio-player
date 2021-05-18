@@ -1,46 +1,9 @@
-.progress {
-  height: 5px;
-  border-radius: 5px;
-  background: #cc8b86;
-  box-shadow: 0 0 10px #e27f78;
-  position: absolute;
-  left: 0;
-}
-.progress__container {
-  background: #d1be9c;
-  width: 100%;
-  height: 5px;
-  border-radius: 5px;
-  position: relative;
-}
-.musicPlayer {
-  padding: 10px 30px;
-  width: 300px;
-  background: #f9eae1;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border: 1px solid #aa998f;
-  border-radius: 5px;
-  display: flex;
-  place-items: center;
-}
-.control {
-  width: max-content;
-  padding-right: 30px;
-}
-body {
-  display: flex;
-  place-content: center;
-  place-items: center;
-  height: 100vh;
-}
-.hidden {
-  display: none;
-}
-.shown {
-  display: block;
-}
-button {
-  all: unset;
-  cursor: pointer;
-}
+:root {
+  --icons: 'Material Icons';
+  } 
+  body{
+    display: flex;
+    height: 100vh;
+    place-content: center;
+    place-items: center;
+  }
