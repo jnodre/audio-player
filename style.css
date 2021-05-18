@@ -5,8 +5,6 @@
   box-shadow: 0 0 10px #e27f78;
   position: absolute;
   left: 0;
-  width: 200px;
-
 }
 .progress__container {
   background: #d1be9c;
@@ -44,4 +42,5 @@ body {
 }
 button {
   all: unset;
+  cursor: pointer;
 }
